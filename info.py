@@ -19,10 +19,10 @@ BOT_TOKEN = environ.get('BOT_TOKEN', '7631000671:AAET4UA49FtD32S9XajlMQnxr2fL6S2
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5948709871').split()]
-USERNAME = environ.get('USERNAME', "https://t.me/MJMOVIES_10") # ADMIN USERNAME
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002677343683'))
+USERNAME = environ.get('USERNAME', "https://t.me/ALL_movies_129") # ADMIN USERNAME
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002673241666'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+MJMOVIES_10')
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002673241666').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002676011528').split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://virudd:virudd@virudd.lrqgvvd.mongodb.net/?retryWrites=true&w=majority&appName=Virudd")
