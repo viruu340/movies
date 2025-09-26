@@ -15,7 +15,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '17661973'))
 API_HASH = environ.get('API_HASH', 'fd5a0d83d203910feeafa45bcc03daad')
-BOT_TOKEN = environ.get('BOT_TOKEN', '7631000671:AAET4UA49FtD32S9XajlMQnxr2fL6S2zOrM')
+BOT_TOKEN = environ.get('BOT_TOKEN', '8358384143:AAGIHgBKJBOTNLP8y3da4L6hyvHKswQXnSo')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5948709871').split()]
@@ -48,8 +48,8 @@ TUTORIAL = environ.get("TUTORIAL", "https://t.me/")
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg")
 SHORTENER_API = environ.get("SHORTENER_API", "7c06a1ace1d98185c785e0158aea9a547f8f502d")
 SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'linkpays.in')
-SHORTENER_API2 = environ.get("SHORTENER_API2", "3097623f852197a9ce40d1212aaa8bbf2803e799")
-SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'omegalinks.in')
+SHORTENER_API2 = environ.get("SHORTENER_API2", "7c06a1ace1d98185c785e0158aea9a547f8f502d")
+SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'linkpays.in')
 SHORTENER_API3 = environ.get("SHORTENER_API3", "3097623f852197a9ce40d1212aaa8bbf2803e799")
 SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", 'omegalinks.in')
 TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "14400"))
